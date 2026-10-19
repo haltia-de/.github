@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Haltia</title>
+  <rect width="128" height="128" rx="24" fill="#1e1d1b"/>
+  <polygon points="64,18 110,56 18,56" fill="#eee8dc"/>
+  <rect x="28" y="54" width="72" height="56" fill="#eee8dc"/>
+  <rect x="45" y="65" width="38" height="38" fill="#8a6322"/>
+  <rect x="49" y="69" width="30" height="30" fill="#f6bb3c"/>
+  <rect x="62.5" y="69" width="3" height="30" fill="#1e1d1b"/>
+  <rect x="49" y="82.5" width="30" height="3" fill="#1e1d1b"/>
+</svg>

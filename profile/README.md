@@ -20,7 +20,7 @@ and eyes. In Finnish and Karelian tales a haltia is a guardian spirit that
 quietly looks after a house and its people.*
 
 Знак Haltia — карельский ромб с рогами, оберег с вышитых полотенец
-([brand](../brand/README.md)).
+([brand](https://github.com/haltia-de/.github/tree/main/brand)).
 
 <p align="center"><img src="haltia-splash.png" width="640" alt="Заставка Haltia: карельский ромб-оберег с рогами и надпись Haltia"></p>
 

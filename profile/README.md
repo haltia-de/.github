@@ -2,7 +2,7 @@
 
 <h1 align="center">Haltia</h1>
 
-<p align="center"><b>A calm touch desktop that looks after you</b><br>
+<p align="center"><b>A calm touch desktop that takes care of you</b><br>
 Спокойная сенсорная среда, которая о вас заботится</p>
 
 Haltia началась с одного планшета. Отцу автора 73 года, и он очень любит

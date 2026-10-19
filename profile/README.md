@@ -19,7 +19,10 @@ new tablet it now runs a current Linux and a calm desktop made for his hands
 and eyes. In Finnish and Karelian tales a haltia is a guardian spirit that
 quietly looks after a house and its people.*
 
-<p align="center"><img src="haltia-splash.png" width="640" alt="Заставка Haltia: домик со светящимся окном и карельская вышивка"></p>
+Знак Haltia — карельский ромб с рогами, оберег с вышитых полотенец
+([brand](../brand/README.md)).
+
+<p align="center"><img src="haltia-splash.png" width="640" alt="Заставка Haltia: карельский ромб-оберег с рогами и надпись Haltia"></p>
 
 ## Что это
 

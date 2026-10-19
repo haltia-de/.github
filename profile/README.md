@@ -55,15 +55,17 @@ Haltia — спокойная сенсорная среда для Linux: для
   не так, система откатывается сама.
 - **Свои программы, без лишнего.** Файлы и галерея, блокнот, календарь,
   видео, новости, раскраска, браузер — каждая делает одно дело и не
-  отвлекает.
+  отвлекает. Погода, Новости, Раскраска, Видео, Музыка и Сообщения
+  работают и на обычном компьютере: пакетами для Ubuntu и Debian и во
+  Flatpak.
 
 ## Для тех, кто настраивает планшет близким
 
 Чаще всего Haltia ставит не тот, кто будет ею пользоваться, а его дети или
 внуки. Настройте один раз — Wi-Fi, вход в мессенджер и музыку, закреплённые
 программы на панели — и дальше планшет просто работает. Обновления приходят
-обычными пакетами (`apk upgrade`), их можно ставить удалённо по SSH, не
-трогая планшет. Настройки, история и вход в программы при обновлении
+обычными пакетами («Настройки → Обновления» или `doas haltia-update upgrade`),
+их можно ставить удалённо по SSH, не трогая планшет. Настройки, история и вход в программы при обновлении
 сохраняются.
 
 ## Что внутри
@@ -81,9 +83,10 @@ Haltia — спокойная сенсорная среда для Linux: для
   и для российских сервисов — [messenger](https://github.com/haltia-de/messenger) (MAX),
   [music](https://github.com/haltia-de/music) (Яндекс Музыка), [weather](https://github.com/haltia-de/weather) (Gismeteo).
 - **[kit](https://github.com/haltia-de/kit)** — общая библиотека программ: вопросы, настройки, звук, фото.
-- **[packages](https://github.com/haltia-de/packages)** — подписанный репозиторий apk
-  для Alpine и postmarketOS.
-- **[ci](https://github.com/haltia-de/ci)** — общий выпуск пакетов по тегам.
+- **[packages](https://github.com/haltia-de/packages)** — подписанные репозитории:
+  apk для Alpine и postmarketOS, apt для Ubuntu и Debian, Flatpak.
+- **[ci](https://github.com/haltia-de/ci)** — общий выпуск пакетов по тегам: apk,
+  deb и Flatpak.
 - **[device-lenovo-b8000h](https://github.com/haltia-de/device-lenovo-b8000h)** —
   Pertin Haltia для Lenovo YOGA Tablet 10 B8000-H: ядро Linux 7.1, GPU через
   libhybris, готовые образы для прошивки.

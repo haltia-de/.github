@@ -24,6 +24,18 @@ quietly looks after a house and its people.*
 
 <p align="center"><img src="haltia-splash.png" width="640" alt="Заставка Haltia: карельский ромб-оберег с рогами и надпись Haltia"></p>
 
+## Как это выглядит
+
+<p>
+<img src="screens/home.png" width="49%" alt="Домашний экран: часы, погода, плитки программ">
+<img src="screens/music.png" width="49%" alt="Музыка: играет трек, внизу плеер">
+<img src="screens/video.png" width="32%" alt="Видео: новое в подписках">
+<img src="screens/paint.png" width="32%" alt="Раскраска по номерам">
+<img src="screens/calendar.png" width="32%" alt="Календарь">
+</p>
+
+<sub>Lenovo YOGA Tablet 10 B8000-H (2014, 1 ГБ памяти), образ Pertin Haltia.</sub>
+
 ## Чем Haltia отличается
 
 Haltia — спокойная сенсорная среда для Linux: для тех, кому нужно, чтобы

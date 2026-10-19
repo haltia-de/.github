@@ -101,7 +101,24 @@ echo https://haltia-de.github.io/packages/alpine/v3.24 >> /etc/apk/repositories
 apk update && apk add haltia-desktop        # и haltia-desktop-ru
 ```
 
-Пакеты собраны для armv7, aarch64 и x86_64. На postmarketOS — пакет
+Ubuntu 24.04 (elementary OS 8, Linux Mint 22) и Debian 13 — программы
+пакетами deb:
+
+```sh
+sudo curl -fsSLo /usr/share/keyrings/haltia-archive-keyring.gpg https://haltia-de.github.io/packages/apt/haltia-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/haltia-archive-keyring.gpg] https://haltia-de.github.io/packages/apt $(. /etc/os-release; echo $VERSION_CODENAME) main" | sudo tee /etc/apt/sources.list.d/haltia.list
+sudo apt update && sudo apt install haltia-weather haltia-news haltia-paint
+```
+
+Любой дистрибутив с Flatpak:
+
+```sh
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists haltia https://haltia-de.github.io/packages/flatpak/haltia.flatpakrepo
+flatpak install haltia io.github.haltia_de.Weather
+```
+
+Пакеты apk собраны для armv7, aarch64 и x86_64. На postmarketOS — пакет
 `postmarketos-ui-haltia`: greetd сразу входит в Haltia.
 
 Решения проекта — в [ADR](https://github.com/haltia-de/device-lenovo-b8000h/tree/main/docs/adr)

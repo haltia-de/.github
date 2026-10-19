@@ -8,6 +8,7 @@
 | Файл | Где |
 |---|---|
 | `haltia.svg` | знак среды Haltia: профиль, иконки пакетов, сайт |
+| `haltia-avatar-500.png` | аватар организации на GitHub (500×500) |
 | `haltia-small.svg` | 16–24 px: ромб без рогов |
 | `pertin-haltia-tablet.svg`, `-tablet-portrait.svg`, `-monitor.svg`, `-laptop.svg` | знак сборки Pertin Haltia: оберег на экране устройства этой сборки |
 | `pertin-haltia-tablet-splash.png` | заставка загрузки B8000-H (рисует `linux-port/initramfs/splash.py`) |

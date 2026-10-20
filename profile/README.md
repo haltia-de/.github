@@ -104,7 +104,7 @@ echo https://haltia-de.github.io/packages/alpine/v3.24 >> /etc/apk/repositories
 apk update && apk add haltia-desktop        # и haltia-desktop-ru
 ```
 
-Ubuntu 24.04 (elementary OS 8, Linux Mint 22) и Debian 13 — программы
+Ubuntu 24.04 и 26.04 (elementary OS 8, Linux Mint 22) и Debian 13 — программы
 пакетами deb:
 
 ```sh

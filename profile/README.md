@@ -124,5 +124,5 @@ flatpak install haltia io.github.haltia_de.Weather
 Пакеты apk собраны для armv7, aarch64 и x86_64. На postmarketOS — пакет
 `postmarketos-ui-haltia`: greetd сразу входит в Haltia.
 
-Решения проекта — в [ADR](https://github.com/haltia-de/device-lenovo-b8000h/tree/main/docs/adr)
+Решения, планы и общие правила проекта — в [haltia-de/haltia](https://github.com/haltia-de/haltia) ([ADR](https://github.com/haltia-de/haltia/tree/main/docs/adr))
 (Haltia — ADR 0004). Интерфейс на русском; перевод — позже.

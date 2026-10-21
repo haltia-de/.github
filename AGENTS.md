@@ -25,8 +25,9 @@ the organization page at once.
   [haltia-de/haltia](https://github.com/haltia-de/haltia); link there
   instead of repeating them. Shared rules:
   [docs/conventions.md](https://github.com/haltia-de/haltia/blob/main/docs/conventions.md).
-- Program icons here are the source; a program repository keeps its own
-  copy under `data/`. Change both together.
+- `brand/icons/` holds the sketches of the program icons in one style
+  (rules in `brand/README.md`); each program ships its icon from its own
+  `data/`, and today they are the same files. Keep them in step.
 - Screenshots must not show personal data (chats, accounts, names): this
   repository is public.
 - Issues are turned off here: work on this repository is tracked in

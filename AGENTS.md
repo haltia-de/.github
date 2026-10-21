@@ -13,11 +13,13 @@ only includes this file.
   `haltia-splash.png`, `screens/`).
 - `brand/` is the brand: the sign of Haltia and its sizes, the signs of the
   Pertin Haltia images, the organization avatar, the boot splash of the
-  B8000-H and one icon per program (`brand/icons/`). `brand/README.md`
+  B8000-H and the icons of the programs and of the shell's groups
+  (`brand/icons/`; Firefox has none on purpose). `brand/README.md`
   (Russian) says what each file is for and where it is used.
 
-There is no code, no package and no release here. A push to `main` shows on
-the organization page at once.
+There is no code, no package and no release here. A push of `profile/` to
+`main` shows on the organization page at once; the organization avatar is
+uploaded by hand in the organization settings.
 
 ## Rules
 
@@ -25,9 +27,11 @@ the organization page at once.
   [haltia-de/haltia](https://github.com/haltia-de/haltia); link there
   instead of repeating them. Shared rules:
   [docs/conventions.md](https://github.com/haltia-de/haltia/blob/main/docs/conventions.md).
-- `brand/icons/` holds the sketches of the program icons in one style
-  (rules in `brand/README.md`); each program ships its icon from its own
-  `data/`, and today they are the same files. Keep them in step.
+- `brand/icons/` holds the sketches of the icons in one style (rules in
+  `brand/README.md`). What users see ships elsewhere: each program's icon
+  from its own `data/`, and calculator, cards and service from
+  haltia-de/shell `share/icons/`. Some have drifted apart (messenger and
+  music draw differently); when you change an icon, change both places.
 - Screenshots must not show personal data (chats, accounts, names): this
   repository is public.
 - Issues are turned off here: work on this repository is tracked in

@@ -53,11 +53,12 @@ Haltia — спокойная сенсорная среда для Linux: для
 - **Обновления без страха.** «Настройки → Обновления» показывают, что нового
   в каждой программе; перед обновлением делается снимок, и если что-то пошло
   не так, система откатывается сама.
-- **Свои программы, без лишнего.** Файлы и галерея, блокнот, календарь,
-  видео, новости, раскраска, браузер — каждая делает одно дело и не
-  отвлекает. Погода, Новости, Раскраска, Видео, Музыка и Сообщения
-  работают и на обычном компьютере: пакетами для Ubuntu и Debian и во
-  Flatpak.
+- **Свои программы, без лишнего.** Файлы и галерея, документы, блокнот,
+  календарь, видео, новости, раскраска, браузер, камера — каждая делает
+  одно дело и не отвлекает. Почта на планшете скрыта: через неё помощнику
+  уходят отчёты о сбоях. Погода, Новости, Раскраска, Видео, Музыка и
+  Сообщения работают и на обычном компьютере: пакетами для Ubuntu и Debian
+  и во Flatpak.
 
 ## Для тех, кто настраивает планшет близким
 
@@ -74,15 +75,17 @@ Haltia — спокойная сенсорная среда для Linux: для
   экран с часами, погодой и плитками, панель с крупными кнопками, кнопка
   закрытия, фильтр касаний для неуверенной руки (ладонь, дрожь, повторы),
   мультитач, экранная клавиатура, поворот экрана, свои «Настройки», обновления
-  с откатом, тема GTK.
-- **Программы** (GTK 3): [files](https://github.com/haltia-de/files) (Файлы и Галерея),
+  с откатом, отчёты о сбоях для помощника, тема GTK.
+- **Программы** (GTK 3): [files](https://github.com/haltia-de/files) (Файлы, Галерея и Документы),
   [text](https://github.com/haltia-de/text), [calendar](https://github.com/haltia-de/calendar),
   [video](https://github.com/haltia-de/video), [news](https://github.com/haltia-de/news),
   [paint](https://github.com/haltia-de/paint) (раскраска по номерам),
-  [firefox](https://github.com/haltia-de/firefox) (Firefox для сенсорного экрана и слабого железа)
+  [firefox](https://github.com/haltia-de/firefox) (Firefox для сенсорного экрана и слабого железа),
+  [camera](https://github.com/haltia-de/camera) (Камера),
+  [mail](https://github.com/haltia-de/mail) (Почта, на планшете скрыта)
   и для российских сервисов — [messenger](https://github.com/haltia-de/messenger) (MAX),
   [music](https://github.com/haltia-de/music) (Яндекс Музыка), [weather](https://github.com/haltia-de/weather) (Gismeteo).
-- **[kit](https://github.com/haltia-de/kit)** — общая библиотека программ: вопросы, настройки, звук, фото.
+- **[kit](https://github.com/haltia-de/kit)** — общая библиотека программ: вопросы, настройки, звук, фото, камера, «Отправить», хранилище секретов и запись падений.
 - **[packages](https://github.com/haltia-de/packages)** — подписанные репозитории:
   apk для Alpine и postmarketOS, apt для Ubuntu и Debian, Flatpak.
 - **[ci](https://github.com/haltia-de/ci)** — общий выпуск пакетов по тегам: apk,
@@ -110,7 +113,7 @@ Ubuntu 24.04 и 26.04 (elementary OS 8, Linux Mint 22) и Debian 13 — прог
 ```sh
 sudo curl -fsSLo /usr/share/keyrings/haltia-archive-keyring.gpg https://haltia-de.github.io/packages/apt/haltia-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/haltia-archive-keyring.gpg] https://haltia-de.github.io/packages/apt $(. /etc/os-release; echo $VERSION_CODENAME) main" | sudo tee /etc/apt/sources.list.d/haltia.list
-sudo apt update && sudo apt install haltia-weather haltia-news haltia-paint
+sudo apt update && sudo apt install haltia-weather haltia-news haltia-paint haltia-music haltia-messenger haltia-video
 ```
 
 Любой дистрибутив с Flatpak:
@@ -120,6 +123,8 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak remote-add --if-not-exists haltia https://haltia-de.github.io/packages/flatpak/haltia.flatpakrepo
 flatpak install haltia io.github.haltia_de.Weather
 ```
+
+Тот же remote отдаёт Новости, Раскраску, Видео, Музыку и Сообщения.
 
 Пакеты apk собраны для armv7, aarch64 и x86_64. На postmarketOS — пакет
 `postmarketos-ui-haltia`: greetd сразу входит в Haltia.
